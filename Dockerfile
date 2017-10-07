@@ -1,4 +1,5 @@
 FROM openshift/python:3.5
+USER root
 EXPOSE 8080
 ENV PYTHON_VERSION=3.5 \
     PATH=$HOME/.local/bin/:$PATH \
