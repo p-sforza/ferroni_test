@@ -1,6 +1,6 @@
 # This image provides a Python 3.5 environment you can use to run your Python
 # applications.
-FROM rhscl/s2i-base-rhel7
+FROM rhscl/s2i-base-rhel7:1
 EXPOSE 8080
 ENV PYTHON_VERSION=3.5 \
     PATH=$HOME/.local/bin/:$PATH \
