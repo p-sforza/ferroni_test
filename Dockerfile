@@ -1,6 +1,8 @@
 # This image provides a Python 3.5 environment you can use to run your Python
 # applications.
-FROM rhscl/s2i-base-rhel7:1
+#FROM rhscl/s2i-base-rhel7:1
+FROM registry.access.redhat.com/rhscl/s2i-base-rhel7:1
+
 USER root
 EXPOSE 8080
 ENV PYTHON_VERSION=3.5 \
